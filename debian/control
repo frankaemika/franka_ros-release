@@ -1,0 +1,12 @@
+Source: ros-kinetic-franka-control
+Section: misc
+Priority: extra
+Maintainer: Franka Emika GmbH <support@franka.de>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-actionlib, ros-kinetic-actionlib-msgs, ros-kinetic-catkin, ros-kinetic-controller-interface, ros-kinetic-controller-manager, ros-kinetic-franka-hw, ros-kinetic-franka-msgs, ros-kinetic-geometry-msgs, ros-kinetic-libfranka, ros-kinetic-message-generation, ros-kinetic-pluginlib, ros-kinetic-realtime-tools, ros-kinetic-roscpp, ros-kinetic-sensor-msgs, ros-kinetic-tf, ros-kinetic-tf2-msgs
+Homepage: http://wiki.ros.org/franka_control
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-franka-control
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-actionlib, ros-kinetic-actionlib-msgs, ros-kinetic-controller-interface, ros-kinetic-controller-manager, ros-kinetic-franka-description, ros-kinetic-franka-hw, ros-kinetic-franka-msgs, ros-kinetic-geometry-msgs, ros-kinetic-joint-state-publisher, ros-kinetic-libfranka, ros-kinetic-message-runtime, ros-kinetic-pluginlib, ros-kinetic-realtime-tools, ros-kinetic-robot-state-publisher, ros-kinetic-roscpp, ros-kinetic-sensor-msgs, ros-kinetic-tf, ros-kinetic-tf2-msgs
+Description: franka_control provides a hardware node to control a Franka Emika research robot
