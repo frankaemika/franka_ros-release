@@ -1,0 +1,12 @@
+Source: ros-kinetic-franka-visualization
+Section: misc
+Priority: extra
+Maintainer: Franka Emika GmbH <support@franka.de>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-libfranka, ros-kinetic-roscpp, ros-kinetic-sensor-msgs
+Homepage: http://wiki.ros.org/franka_visualization
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-franka-visualization
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-franka-description, ros-kinetic-libfranka, ros-kinetic-roscpp, ros-kinetic-sensor-msgs, ros-kinetic-xacro
+Description: This package contains visualization tools for Franka Emika.
