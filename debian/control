@@ -1,0 +1,12 @@
+Source: ros-kinetic-franka-example-controllers
+Section: misc
+Priority: extra
+Maintainer: Franka Emika GmbH <support@franka.de>
+Build-Depends: debhelper (>= 9.0.0), libeigen3-dev, ros-kinetic-catkin, ros-kinetic-controller-interface, ros-kinetic-dynamic-reconfigure, ros-kinetic-franka-hw, ros-kinetic-geometry-msgs, ros-kinetic-hardware-interface, ros-kinetic-libfranka, ros-kinetic-message-generation, ros-kinetic-pluginlib, ros-kinetic-realtime-tools, ros-kinetic-roscpp
+Homepage: http://wiki.ros.org/franka_example_controllers
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-franka-example-controllers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-controller-interface, ros-kinetic-dynamic-reconfigure, ros-kinetic-franka-control, ros-kinetic-franka-description, ros-kinetic-franka-hw, ros-kinetic-geometry-msgs, ros-kinetic-hardware-interface, ros-kinetic-libfranka, ros-kinetic-message-runtime, ros-kinetic-panda-moveit-config, ros-kinetic-pluginlib, ros-kinetic-realtime-tools, ros-kinetic-roscpp, ros-kinetic-rospy
+Description: franka_example_controllers provides example code for controlling Franka Emika research robots with ros_control
