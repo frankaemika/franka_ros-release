@@ -1,3 +1,36 @@
+## franka_ros (lunar) - 0.6.0-2
+
+The packages in the `franka_ros` repository were released into the `lunar` distro by running `/usr/bin/bloom-release franka_ros --track lunar --ros-distro lunar` on `Mon, 19 Nov 2018 16:08:28 -0000`
+
+The `franka_description` package was released.
+
+These packages were explicitly ignored:
+- `franka_hw`
+- `panda_moveit_config`
+- `franka_control`
+- `franka_gripper`
+- `franka_ros`
+- `franka_example_controllers`
+- `franka_msgs`
+- `franka_visualization`
+
+Version of package(s) in repository `franka_ros`:
+
+- upstream repository: https://github.com/frankaemika/franka_ros.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `0.6.0-1`
+- new version: `0.6.0-2`
+
+Versions of tools used:
+
+- bloom version: `0.6.8`
+- catkin_pkg version: `0.4.9`
+- rosdep version: `0.13.0`
+- rosdistro version: `0.7.0`
+- vcstools version: `0.1.40`
+
+
 ## franka_ros (kinetic) - 0.6.0-1
 
 The packages in the `franka_ros` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release franka_ros --track kinetic --ros-distro kinetic` on `Tue, 13 Nov 2018 11:46:56 -0000`
