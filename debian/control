@@ -1,0 +1,12 @@
+Source: ros-noetic-franka-control
+Section: misc
+Priority: optional
+Maintainer: Franka Emika GmbH <support@franka.de>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-controller-interface, ros-noetic-controller-manager, ros-noetic-franka-hw, ros-noetic-franka-msgs, ros-noetic-geometry-msgs, ros-noetic-libfranka, ros-noetic-pluginlib, ros-noetic-realtime-tools, ros-noetic-roscpp, ros-noetic-sensor-msgs, ros-noetic-tf, ros-noetic-tf2-msgs
+Homepage: http://wiki.ros.org/franka_control
+Standards-Version: 3.9.2
+
+Package: ros-noetic-franka-control
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-controller-interface, ros-noetic-controller-manager, ros-noetic-franka-description, ros-noetic-franka-gripper, ros-noetic-franka-hw, ros-noetic-franka-msgs, ros-noetic-geometry-msgs, ros-noetic-joint-state-publisher, ros-noetic-libfranka, ros-noetic-pluginlib, ros-noetic-realtime-tools, ros-noetic-robot-state-publisher, ros-noetic-roscpp, ros-noetic-sensor-msgs, ros-noetic-tf, ros-noetic-tf2-msgs
+Description: franka_control provides a hardware node to control a Franka Emika research robot
