@@ -1,0 +1,12 @@
+Source: ros-noetic-franka-visualization
+Section: misc
+Priority: optional
+Maintainer: Franka Emika GmbH <support@franka.de>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-libfranka, ros-noetic-roscpp, ros-noetic-sensor-msgs
+Homepage: http://wiki.ros.org/franka_visualization
+Standards-Version: 3.9.2
+
+Package: ros-noetic-franka-visualization
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-franka-description, ros-noetic-libfranka, ros-noetic-roscpp, ros-noetic-sensor-msgs, ros-noetic-xacro
+Description: This package contains visualization tools for Franka Emika.
