@@ -1,0 +1,12 @@
+Source: ros-noetic-franka-gripper
+Section: misc
+Priority: optional
+Maintainer: Franka Emika GmbH <support@franka.de>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-actionlib, ros-noetic-actionlib-msgs, ros-noetic-catkin, ros-noetic-control-msgs, ros-noetic-libfranka, ros-noetic-message-generation, ros-noetic-roscpp, ros-noetic-sensor-msgs, ros-noetic-xmlrpcpp
+Homepage: http://wiki.ros.org/franka_gripper
+Standards-Version: 3.9.2
+
+Package: ros-noetic-franka-gripper
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-actionlib, ros-noetic-actionlib-msgs, ros-noetic-control-msgs, ros-noetic-libfranka, ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-roscpp, ros-noetic-sensor-msgs, ros-noetic-xmlrpcpp
+Description: This package implements the franka gripper of type Franka Hand for the use in ros
