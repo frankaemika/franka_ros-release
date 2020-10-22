@@ -37,24 +37,24 @@ void handleErrors(actionlib::SimpleActionServer<T_action>* server,
 
 using actionlib::SimpleActionServer;
 using control_msgs::GripperCommandAction;
+using franka_gripper::grasp;
 using franka_gripper::GraspAction;
 using franka_gripper::GraspEpsilon;
 using franka_gripper::GraspGoalConstPtr;
 using franka_gripper::GraspResult;
+using franka_gripper::gripperCommandExecuteCallback;
+using franka_gripper::homing;
 using franka_gripper::HomingAction;
 using franka_gripper::HomingGoalConstPtr;
 using franka_gripper::HomingResult;
+using franka_gripper::move;
 using franka_gripper::MoveAction;
 using franka_gripper::MoveGoalConstPtr;
 using franka_gripper::MoveResult;
+using franka_gripper::stop;
 using franka_gripper::StopAction;
 using franka_gripper::StopGoalConstPtr;
 using franka_gripper::StopResult;
-using franka_gripper::grasp;
-using franka_gripper::gripperCommandExecuteCallback;
-using franka_gripper::homing;
-using franka_gripper::move;
-using franka_gripper::stop;
 using franka_gripper::updateGripperState;
 
 int main(int argc, char** argv) {
@@ -152,6 +152,12 @@ int main(int argc, char** argv) {
     return -1;
   }
 
+  bool stop_at_shutdown(false);
+  if (!node_handle.getParam("stop_at_shutdown", stop_at_shutdown)) {
+    ROS_INFO_STREAM("franka_gripper_node: Could not find parameter stop_at_shutdown. Defaulting to "
+                    << std::boolalpha << stop_at_shutdown);
+  }
+
   franka::GripperState gripper_state;
   std::mutex gripper_state_mutex;
   std::thread read_thread([&gripper_state, &gripper, &gripper_state_mutex]() {
@@ -188,5 +194,8 @@ int main(int argc, char** argv) {
     rate.sleep();
   }
   read_thread.join();
+  if (stop_at_shutdown) {
+    gripper.stop();
+  }
   return 0;
 }
