@@ -1,3 +1,37 @@
+## franka_ros (melodic) - 0.7.1-1
+
+The packages in the `franka_ros` repository were released into the `melodic` distro by running `/usr/bin/bloom-release franka_ros --track melodic --rosdistro melodic` on `Thu, 22 Oct 2020 11:53:09 -0000`
+
+These packages were released:
+- `franka_control`
+- `franka_description`
+- `franka_example_controllers`
+- `franka_gripper`
+- `franka_hw`
+- `franka_msgs`
+- `franka_ros`
+- `franka_visualization`
+
+These packages were explicitly ignored:
+- `panda_moveit_config`
+
+Version of package(s) in repository `franka_ros`:
+
+- upstream repository: https://github.com/frankaemika/franka_ros.git
+- release repository: https://github.com/frankaemika/franka_ros-release.git
+- rosdistro version: `0.6.0-1`
+- old version: `0.6.0-1`
+- new version: `0.7.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.0`
+- catkin_pkg version: `0.4.20`
+- rosdep version: `0.19.0`
+- rosdistro version: `0.8.2`
+- vcstools version: `0.1.42`
+
+
 ## franka_ros (noetic) - 0.7.0-1
 
 The packages in the `franka_ros` repository were released into the `noetic` distro by running `/usr/bin/bloom-release franka_ros --track noetic --rosdistro noetic --new-track` on `Wed, 02 Sep 2020 13:28:44 -0000`
