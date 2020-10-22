@@ -1,0 +1,12 @@
+Source: ros-noetic-franka-hw
+Section: misc
+Priority: optional
+Maintainer: Franka Emika GmbH <support@franka.de>
+Build-Depends: debhelper (>= 9.0.0), libgtest-dev, ros-noetic-actionlib, ros-noetic-actionlib-msgs, ros-noetic-catkin, ros-noetic-combined-robot-hw, ros-noetic-controller-interface, ros-noetic-franka-description, ros-noetic-franka-msgs, ros-noetic-hardware-interface, ros-noetic-joint-limits-interface, ros-noetic-libfranka, ros-noetic-message-generation, ros-noetic-pluginlib, ros-noetic-roscpp, ros-noetic-rostest, ros-noetic-urdf
+Homepage: http://wiki.ros.org/franka_hw
+Standards-Version: 3.9.2
+
+Package: ros-noetic-franka-hw
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-actionlib, ros-noetic-actionlib-msgs, ros-noetic-combined-robot-hw, ros-noetic-controller-interface, ros-noetic-franka-msgs, ros-noetic-hardware-interface, ros-noetic-joint-limits-interface, ros-noetic-libfranka, ros-noetic-pluginlib, ros-noetic-roscpp, ros-noetic-urdf
+Description: franka_hw provides hardware interfaces for using Franka Emika research robots with ros_control
