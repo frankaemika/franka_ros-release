@@ -1,1 +1,1 @@
-{"base": "5426d9e", "parent": "debian/noetic/franka_msgs", "previous": "dfb4c7a", "trim": "", "trimbase": ""}
+{"trim": "", "base": "9eabd31", "trimbase": "", "parent": "debian/noetic/franka_msgs", "previous": "f9baa87"}
