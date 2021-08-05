@@ -1,1 +1,1 @@
-{"base": "53411bd", "parent": "debian/melodic/franka_control", "previous": "061ddfd", "trim": "", "trimbase": ""}
+{"trim": "", "base": "57f9d87", "trimbase": "", "parent": "debian/melodic/franka_control", "previous": "52fd2f7"}
