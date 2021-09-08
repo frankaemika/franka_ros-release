@@ -1,3 +1,35 @@
+## franka_ros (noetic) - 0.8.1-1
+
+The packages in the `franka_ros` repository were released into the `noetic` distro by running `/usr/bin/bloom-release --rosdistro noetic --track noetic franka_ros` on `Wed, 08 Sep 2021 14:34:49 -0000`
+
+These packages were released:
+- `franka_control`
+- `franka_description`
+- `franka_example_controllers`
+- `franka_gazebo`
+- `franka_gripper`
+- `franka_hw`
+- `franka_msgs`
+- `franka_ros`
+- `franka_visualization`
+
+Version of package(s) in repository `franka_ros`:
+
+- upstream repository: https://github.com/frankaemika/franka_ros.git
+- release repository: https://github.com/frankaemika/franka_ros-release.git
+- rosdistro version: `0.8.0-1`
+- old version: `0.8.0-1`
+- new version: `0.8.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.7`
+- catkin_pkg version: `0.4.23`
+- rosdep version: `0.21.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## franka_ros (melodic) - 0.8.1-2
 
 The packages in the `franka_ros` repository were released into the `melodic` distro by running `/usr/bin/bloom-release --rosdistro melodic --track melodic franka_ros` on `Wed, 08 Sep 2021 14:02:00 -0000`
