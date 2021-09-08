@@ -1,0 +1,12 @@
+Source: ros-melodic-franka-ros
+Section: misc
+Priority: optional
+Maintainer: Franka Emika GmbH <support@franka.de>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: http://wiki.ros.org/franka_ros
+Standards-Version: 3.9.2
+
+Package: ros-melodic-franka-ros
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-franka-control, ros-melodic-franka-description, ros-melodic-franka-example-controllers, ros-melodic-franka-gripper, ros-melodic-franka-hw, ros-melodic-franka-msgs, ros-melodic-franka-visualization, ros-melodic-panda-moveit-config
+Description: franka_ros is a metapackage for all Franka Emika ROS packages
