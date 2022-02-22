@@ -1,1 +1,1 @@
-{"trim": "", "base": "23c1586", "trimbase": "", "parent": "debian/melodic/franka_gazebo", "previous": "6eb5642"}
+{"base": "bd87e1d6", "parent": "debian/melodic/franka_gazebo", "previous": "41800bd5", "trim": "", "trimbase": ""}
