@@ -1,1 +1,1 @@
-{"base": "170e4748", "parent": "debian/noetic/franka_example_controllers", "previous": "74ff72ec", "trim": "", "trimbase": ""}
+{"trim": "", "base": "23b55c15", "trimbase": "", "parent": "debian/noetic/franka_example_controllers", "previous": "e395c2fc"}
