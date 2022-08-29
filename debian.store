@@ -1,1 +1,1 @@
-{"base": "c59aaeac", "parent": "debian/melodic/franka_hw", "previous": "88860fba", "trim": "", "trimbase": ""}
+{"trim": "", "base": "7cc78db6", "trimbase": "", "parent": "debian/melodic/franka_hw", "previous": "48a07e37"}
