@@ -1,0 +1,12 @@
+Source: ros-noetic-franka-ros
+Section: misc
+Priority: optional
+Maintainer: Franka Emika GmbH <support@franka.de>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin
+Homepage: http://wiki.ros.org/franka_ros
+Standards-Version: 3.9.2
+
+Package: ros-noetic-franka-ros
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-franka-control, ros-noetic-franka-description, ros-noetic-franka-example-controllers, ros-noetic-franka-gazebo, ros-noetic-franka-gripper, ros-noetic-franka-hw, ros-noetic-franka-msgs, ros-noetic-franka-visualization
+Description: franka_ros is a metapackage for all Franka Emika ROS packages
